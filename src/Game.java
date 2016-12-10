@@ -174,7 +174,7 @@ public class Game extends Canvas {
         ShotEntity shot = new ShotEntity (this, shotImage, ship.getX() + 10, ship.getY() - 30);
         entities.add(shot);
     }
-    
+
     public void gameLoop() {
 
         long lastLoopTime = System.currentTimeMillis();
